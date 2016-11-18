@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EDA9611DCB11F10057B7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA9601DCB11F10057B7DE /* AppDelegate.swift */; };
+		17EDA9631DCB11F10057B7DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA9621DCB11F10057B7DE /* ViewController.swift */; };
+		17EDA9661DCB11F10057B7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EDA9641DCB11F10057B7DE /* Main.storyboard */; };
+		17EDA9691DCB11F10057B7DE /* AESCrypt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA9671DCB11F10057B7DE /* AESCrypt.xcdatamodeld */; };
+		17EDA96B1DCB11F10057B7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EDA96A1DCB11F10057B7DE /* Assets.xcassets */; };
+		17EDA96E1DCB11F10057B7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17EDA96C1DCB11F10057B7DE /* LaunchScreen.storyboard */; };
+		17EDA9851DCB123F0057B7DE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 17EDA97A1DCB123F0057B7DE /* .gitignore */; };
+		17EDA9861DCB123F0057B7DE /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA97C1DCB123F0057B7DE /* AESCrypt.m */; };
+		17EDA9871DCB123F0057B7DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 17EDA97D1DCB123F0057B7DE /* LICENSE */; };
+		17EDA9881DCB123F0057B7DE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA97F1DCB123F0057B7DE /* NSData+Base64.m */; };
+		17EDA9891DCB123F0057B7DE /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA9811DCB123F0057B7DE /* NSData+CommonCrypto.m */; };
+		17EDA98A1DCB123F0057B7DE /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA9831DCB123F0057B7DE /* NSString+Base64.m */; };
+		17EDA98B1DCB123F0057B7DE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 17EDA9841DCB123F0057B7DE /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17EDA95D1DCB11F10057B7DE /* AESCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EDA9601DCB11F10057B7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17EDA9621DCB11F10057B7DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17EDA9651DCB11F10057B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17EDA9681DCB11F10057B7DE /* AESCrypt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AESCrypt.xcdatamodel; sourceTree = "<group>"; };
+		17EDA96A1DCB11F10057B7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17EDA96D1DCB11F10057B7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17EDA96F1DCB11F10057B7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17EDA9751DCB121C0057B7DE /* AESCrypt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AESCrypt-Bridging-Header.h"; sourceTree = "<group>"; };
+		17EDA97A1DCB123F0057B7DE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		17EDA97B1DCB123F0057B7DE /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		17EDA97C1DCB123F0057B7DE /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		17EDA97D1DCB123F0057B7DE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		17EDA97E1DCB123F0057B7DE /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		17EDA97F1DCB123F0057B7DE /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		17EDA9801DCB123F0057B7DE /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		17EDA9811DCB123F0057B7DE /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		17EDA9821DCB123F0057B7DE /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		17EDA9831DCB123F0057B7DE /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		17EDA9841DCB123F0057B7DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EDA95A1DCB11F10057B7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EDA9541DCB11F10057B7DE = {
+			isa = PBXGroup;
+			children = (
+				17EDA95F1DCB11F10057B7DE /* AESCrypt */,
+				17EDA95E1DCB11F10057B7DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EDA95E1DCB11F10057B7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EDA95D1DCB11F10057B7DE /* AESCrypt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EDA95F1DCB11F10057B7DE /* AESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				17EDA9791DCB123F0057B7DE /* AESCrypt-ObjC-master */,
+				17EDA9601DCB11F10057B7DE /* AppDelegate.swift */,
+				17EDA9621DCB11F10057B7DE /* ViewController.swift */,
+				17EDA9641DCB11F10057B7DE /* Main.storyboard */,
+				17EDA96A1DCB11F10057B7DE /* Assets.xcassets */,
+				17EDA96C1DCB11F10057B7DE /* LaunchScreen.storyboard */,
+				17EDA96F1DCB11F10057B7DE /* Info.plist */,
+				17EDA9671DCB11F10057B7DE /* AESCrypt.xcdatamodeld */,
+				17EDA9751DCB121C0057B7DE /* AESCrypt-Bridging-Header.h */,
+			);
+			path = AESCrypt;
+			sourceTree = "<group>";
+		};
+		17EDA9791DCB123F0057B7DE /* AESCrypt-ObjC-master */ = {
+			isa = PBXGroup;
+			children = (
+				17EDA97A1DCB123F0057B7DE /* .gitignore */,
+				17EDA97B1DCB123F0057B7DE /* AESCrypt.h */,
+				17EDA97C1DCB123F0057B7DE /* AESCrypt.m */,
+				17EDA97D1DCB123F0057B7DE /* LICENSE */,
+				17EDA97E1DCB123F0057B7DE /* NSData+Base64.h */,
+				17EDA97F1DCB123F0057B7DE /* NSData+Base64.m */,
+				17EDA9801DCB123F0057B7DE /* NSData+CommonCrypto.h */,
+				17EDA9811DCB123F0057B7DE /* NSData+CommonCrypto.m */,
+				17EDA9821DCB123F0057B7DE /* NSString+Base64.h */,
+				17EDA9831DCB123F0057B7DE /* NSString+Base64.m */,
+				17EDA9841DCB123F0057B7DE /* README.md */,
+			);
+			path = "AESCrypt-ObjC-master";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EDA95C1DCB11F10057B7DE /* AESCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EDA9721DCB11F10057B7DE /* Build configuration list for PBXNativeTarget "AESCrypt" */;
+			buildPhases = (
+				17EDA9591DCB11F10057B7DE /* Sources */,
+				17EDA95A1DCB11F10057B7DE /* Frameworks */,
+				17EDA95B1DCB11F10057B7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESCrypt;
+			productName = AESCrypt;
+			productReference = 17EDA95D1DCB11F10057B7DE /* AESCrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EDA9551DCB11F10057B7DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fanviwa;
+				TargetAttributes = {
+					17EDA95C1DCB11F10057B7DE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QN63N23BF4;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17EDA9581DCB11F10057B7DE /* Build configuration list for PBXProject "AESCrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EDA9541DCB11F10057B7DE;
+			productRefGroup = 17EDA95E1DCB11F10057B7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EDA95C1DCB11F10057B7DE /* AESCrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EDA95B1DCB11F10057B7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EDA9851DCB123F0057B7DE /* .gitignore in Resources */,
+				17EDA96E1DCB11F10057B7DE /* LaunchScreen.storyboard in Resources */,
+				17EDA96B1DCB11F10057B7DE /* Assets.xcassets in Resources */,
+				17EDA9661DCB11F10057B7DE /* Main.storyboard in Resources */,
+				17EDA9871DCB123F0057B7DE /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EDA9591DCB11F10057B7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EDA9861DCB123F0057B7DE /* AESCrypt.m in Sources */,
+				17EDA9691DCB11F10057B7DE /* AESCrypt.xcdatamodeld in Sources */,
+				17EDA9891DCB123F0057B7DE /* NSData+CommonCrypto.m in Sources */,
+				17EDA9881DCB123F0057B7DE /* NSData+Base64.m in Sources */,
+				17EDA9631DCB11F10057B7DE /* ViewController.swift in Sources */,
+				17EDA9611DCB11F10057B7DE /* AppDelegate.swift in Sources */,
+				17EDA98B1DCB123F0057B7DE /* README.md in Sources */,
+				17EDA98A1DCB123F0057B7DE /* NSString+Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17EDA9641DCB11F10057B7DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EDA9651DCB11F10057B7DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17EDA96C1DCB11F10057B7DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17EDA96D1DCB11F10057B7DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17EDA9701DCB11F10057B7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EDA9711DCB11F10057B7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17EDA9731DCB11F10057B7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QN63N23BF4;
+				INFOPLIST_FILE = AESCrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanviwa.AESCrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AESCrypt/AESCrypt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17EDA9741DCB11F10057B7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QN63N23BF4;
+				INFOPLIST_FILE = AESCrypt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanviwa.AESCrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AESCrypt/AESCrypt-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EDA9581DCB11F10057B7DE /* Build configuration list for PBXProject "AESCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EDA9701DCB11F10057B7DE /* Debug */,
+				17EDA9711DCB11F10057B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EDA9721DCB11F10057B7DE /* Build configuration list for PBXNativeTarget "AESCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EDA9731DCB11F10057B7DE /* Debug */,
+				17EDA9741DCB11F10057B7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17EDA9671DCB11F10057B7DE /* AESCrypt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17EDA9681DCB11F10057B7DE /* AESCrypt.xcdatamodel */,
+			);
+			currentVersion = 17EDA9681DCB11F10057B7DE /* AESCrypt.xcdatamodel */;
+			path = AESCrypt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17EDA9551DCB11F10057B7DE /* Project object */;
+}
